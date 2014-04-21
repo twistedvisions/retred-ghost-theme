@@ -500,9 +500,24 @@ margin on the iframe, cause it breaks stuff. */
     width: 100%;
 }
 
-.links * {
+.links > * {
     font-size: 1.5rem;
     color: white;
+    margin-right: 10px;
+}
+
+.links .social {
+    display: inline-block;
+    vertical-align: -4px;
+}
+
+.links .social > div {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.links .social > div iframe {
+    margin: 0;
 }
 
 /* Every post, on every page, gets this style on its <article> tag */
